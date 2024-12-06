@@ -1,5 +1,0 @@
-aws ec2 describe-instances ( To print all ec2 instances )
-aws ec2 describe-instances | jq '.Reservations[].Instances[].InstanceId' ( To print Instance Ids of all ec2 Instances )
-aws s3 ls                  ( To print all s3 buckets)
-aws lambda list-functions  ( To print all lambda  functions )
-aws iam list-users         ( To print all IAM users )
